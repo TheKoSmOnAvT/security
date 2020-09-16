@@ -1,0 +1,21 @@
+﻿@page
+@model Security.Pages.laba2Model
+@{
+    ViewData["Title"] = "RSA";
+}
+
+<h2>Метод шифрования RSA</h2>
+
+<form method="post">
+    <input name="text" />
+    <input type="submit" value="Зашифровать текст" />
+
+</form>
+
+@if (@Model.codable != null)
+{
+    <p>Начально предложение: @Model.text</p>
+    <p>Закодированное предложение: @Model.codable</p>
+    <p>Раскодированное : @Model.decode</p>
+  
+}

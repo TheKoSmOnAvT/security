@@ -1,0 +1,29 @@
+﻿@page
+@model Security.Pages.laba1Model
+@{
+    ViewData["Title"] = "Ввод данных";
+}
+
+<h2>Метод шифрования с помощью системы омофонов</h2>
+<form method="post">
+    <input name="text" />
+    <input type="submit" value="Send" />
+
+</form>
+@if (@Model.code != null)
+{
+    <p>Начально предложение: @Model.Message</p>
+    <p>Закодированное предложение: @Model.code</p>
+    <p>Таблица сформированных кодировок:</p>
+    <table>
+
+        @foreach (var item in @Model.table)
+        {
+            <tr>
+                <td>@item.Key : @item.Value</td>
+            </tr>
+        }
+
+    </table>
+
+}
