@@ -31,3 +31,4 @@ D:\PTSU\Защиты информации\labs\Security\Security\obj\Debug\netco
 D:\PTSU\Защиты информации\labs\Security\Security\obj\Debug\netcoreapp3.1\Security.csproj.CopyComplete
 D:\PTSU\Защиты информации\labs\Security\Security\obj\Debug\netcoreapp3.1\Razor\Pages\laba1.cshtml.g.cs
 D:\PTSU\Защиты информации\labs\Security\Security\obj\Debug\netcoreapp3.1\Razor\Pages\laba2.cshtml.g.cs
+D:\PTSU\Защиты информации\labs\Security\Security\obj\Debug\netcoreapp3.1\Razor\Pages\laba3.cshtml.g.cs
