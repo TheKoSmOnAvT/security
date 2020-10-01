@@ -1,0 +1,23 @@
+﻿@page
+@model Security.Pages.laba4Model
+@{
+    ViewData["Title"] = "DSA";
+}
+
+
+
+<h2>Метод шифрования DSA</h2>
+
+<form method="post">
+    <p> Текст для шифрования <input name="text" /> </p>
+    <p> Ключ для шифрования <input name="keyS" /> </p>
+    <input type="submit" value="Зашифровать" />
+
+</form>
+
+@if (@Model.code != null)
+{
+    <p>Закодированное: @Model.code</p>
+    <p>Раскодированное: @Model.deCode</p>
+
+}
