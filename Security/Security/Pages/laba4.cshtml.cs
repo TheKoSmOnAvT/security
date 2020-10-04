@@ -23,7 +23,7 @@ namespace Security.Pages
         public string deCode;
 
 
-        public string encodeKey;
+
         public string decodeKey;
 
         public void OnGet()
@@ -225,9 +225,13 @@ namespace Security.Pages
                 bool b = Convert.ToBoolean(Convert.ToInt32(s2[i].ToString()));
 
                 if (a ^ b)
+                {
                     result += "1";
+                }
                 else
+                {
                     result += "0";
+                }
             }
             return result;
         }

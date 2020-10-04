@@ -1,0 +1,22 @@
+﻿@page
+@model Security.Pages.laba5Model
+@{
+    ViewData["Title"] = "метод линейных блочных кодов ";
+}
+
+
+
+<h2>Метод  линейных блочных кодов</h2>
+
+<form method="post">
+    <p> последовательность бит  <input name="text" /> </p>
+    <input type="submit" value="отправить" />
+
+</form>
+
+@if (@Model.enteredString != null)
+{
+    <p> Исправленное: @Model.correctString</p>
+    <p> Отправленное: @Model.enteredString</p>
+
+}
