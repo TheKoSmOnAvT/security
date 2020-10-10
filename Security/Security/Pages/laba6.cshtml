@@ -1,0 +1,23 @@
+﻿@page
+@model Security.Pages.laba6Model
+@{
+    ViewData["Title"] = "метод линейных блочных кодов ";
+}
+
+<h2>LZW</h2>
+
+<form method="post">
+    <p> последовательность символов  <input name="text" /> </p>
+    <input type="submit" value="отправить" />
+
+</form>
+
+@if (@Model.result != null)
+{
+    <p> код lwz: @Model.result</p>
+    <p> двойная : @Model.secondCode</p>
+
+    <p> декод lwz: @Model.decodeLWZ</p>
+
+
+}

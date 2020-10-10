@@ -34,3 +34,4 @@ D:\PTSU\Защиты информации\labs\Security\Security\obj\Debug\netco
 D:\PTSU\Защиты информации\labs\Security\Security\obj\Debug\netcoreapp3.1\Razor\Pages\laba3.cshtml.g.cs
 D:\PTSU\Защиты информации\labs\Security\Security\obj\Debug\netcoreapp3.1\Razor\Pages\laba4.cshtml.g.cs
 D:\PTSU\Защиты информации\labs\Security\Security\obj\Debug\netcoreapp3.1\Razor\Pages\laba5.cshtml.g.cs
+D:\PTSU\Защиты информации\labs\Security\Security\obj\Debug\netcoreapp3.1\Razor\Pages\laba6.cshtml.g.cs
