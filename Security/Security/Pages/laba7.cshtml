@@ -1,0 +1,19 @@
+﻿@page
+@model Security.Pages.laba7Model
+@{
+    ViewData["Title"] = "ХЭШ";
+}
+
+<h2>Алгоритмы хеширования паролей</h2>
+
+<form method="post">
+    <p> пароль  <input name="pass" /> </p>
+    <input type="submit" value="отправить" />
+
+</form>
+
+@if (@Model.hash != null)
+{
+    <p> хэш: @Model.hash</p>
+
+}
