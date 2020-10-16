@@ -1,0 +1,23 @@
+﻿@page
+@model Security.Pages.laba8Model
+@{
+    ViewData["Title"] = "гаммирование";
+}
+
+
+<h2>Гаммирование</h2>
+
+<form method="post">
+    <p> Текст для гаммирования  <input name="text" /> </p>
+    <input type="submit" value="отправить" />
+
+</form>
+
+@if (@Model.codeText != null)
+{
+    <p> введеный текст: @Model.enteredText</p>
+    <p> закодированный : @Model.codeText</p>
+    <p> ключ: @Model.key</p>
+    <p> раскодированный : @Model.decodeText</p>
+    
+}
