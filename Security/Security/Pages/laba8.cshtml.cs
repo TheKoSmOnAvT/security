@@ -65,8 +65,8 @@ namespace Security.Pages
         public void generateKey()
         {
             key = "";
-         
-            for (int i = 0; i<32; i++)
+
+            for (int i = 0; i < 32; i++)
             {
                 Random rnd = new Random();
                 key += rnd.Next(2).ToString();
@@ -115,13 +115,7 @@ namespace Security.Pages
             }
             return result;
         }
-        //private string roundDES(string input, string key)
-        //{
-        //    string L = input.Substring(0, input.Length / 2);
-        //    string R = input.Substring(input.Length / 2, input.Length / 2);
 
-        //    return (R + XOR(L, f(R, key)));
-        //}
         private string XOR(string s1, string s2)
         {
             string result = "";
@@ -143,10 +137,6 @@ namespace Security.Pages
             return result;
         }
 
-        //private string f(string s1, string s2)
-        //{
-        //    return XOR(s1, s2);
-        //}
 
 
         private string binaryToString(string input)
@@ -175,5 +165,3 @@ namespace Security.Pages
     }
 
 }
-
-                                            
